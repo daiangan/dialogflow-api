@@ -29,7 +29,43 @@ Copy the ID at the end of the URL and enable the Web Demo:
 
 Use that ID as your __agent_id__ in the API call.  
 
-Set the __language__ you want to use (default to __en__) and send the __context__ if any for a better understanding.
+Set the __language__ you want to use (default to __en__) and send the __context__ if any for a better understanding.  
+
+<br>
+
+####Sample response:
+
+```text
+{
+    "dialogflow_response": {
+        "queryResult": {
+            "action": "input.welcome",
+            "allRequiredParamsPresent": true,
+            "fulfillmentMessages": [
+                {
+                    "text": {
+                        "text": [
+                            "Welcome to the simple Dialogflow API."
+                        ]
+                    }
+                }
+            ],
+            "fulfillmentText": "Welcome to the simple Dialogflow API.",
+            "intent": {
+                "displayName": "Default Welcome Intent",
+                "name": "projects/generaltests-vbsk/agent/intents/86425968-3346-6744-b8a8-8397f5b83hr6"
+            },
+            "intentDetectionConfidence": 1.0,
+            "languageCode": "en",
+            "parameters": {},
+            "queryText": "Hello"
+        },
+        "responseId": "3g504847-f2b1-498c-8704-631d3cf1b228-83ba83u8"
+    },
+    "message": "Everything ok.",
+    "ok": true
+}
+```
 
 <br>
 <br>
