@@ -31,7 +31,6 @@ Use that ID as your __agent_id__ in the API call.
 
 Set the __language__ you want to use (default to __en__) and send the __context__ if any for a better understanding.  
 
-<br>
 
 ####Sample response:
 
